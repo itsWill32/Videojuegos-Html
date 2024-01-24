@@ -1,0 +1,1182 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0; 
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*============MAIN HEADER==================*/
+.main-header{
+    width: 100%;
+    color:white;
+    padding: 12px;
+    margin-bottom: 24px;
+}
+
+/*============CONTAINER HEADER==================*/
+.container-header{
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.main-header .container-header{
+    width: 80%;
+    margin: auto;
+}
+
+.brand-header{
+    width: 195px;
+    height: 50px;
+    background-color: #000000;
+}
+.brand-contain{
+    color: #FFFFFF;
+    font-size: 2rem;
+    font: normal normal 900 38px/44px Lato;
+}
+/*============NAV HEADER==================*/
+.nav-header{
+    color:#000000;
+    margin: 5px;
+}
+
+.nav-header .nav-link-header {
+    margin-right: .6rem;
+    color: #000000;
+}
+
+.nav-link-header{
+    font: normal normal 300 18px/22px Lato;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+/*============SCTION-ADD==================*/
+.main-add{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 88px;
+    overflow: hidden;
+}
+
+.section-add-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 745px;
+    height: 299px;
+}
+
+.title-add-container{
+    display: flex;
+    font: normal normal 900 40px/48px Lato;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    margin-bottom: 24px;
+}
+
+.paragraph-add-container{
+    font: normal normal 300 20px/24px Lato;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    margin-bottom: 24px;
+}
+
+.button-add{
+    background-color: #000000;
+    border: 1px solid #707070;
+    border-radius: 25px;
+    width: 210px;
+    height: 40px;
+    font: normal normal bold 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+
+}
+.img-add-container{
+    width: 535px;
+    height: 299px;
+    background-color: #F2F2F2;
+    border-radius: 20px 20px 20px 20px;
+}
+
+/*============HIGHLIGHTS==================*/
+.main-highlights{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 433px;
+    background-color: #EFEFEF;
+}
+
+.container-highlights{
+    width: 80%;
+}
+
+.nav-highlights{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 29px;
+    margin-top: 27px;
+    margin-bottom: 29px;
+}
+
+.nav-link-games-highlights{
+    font: normal normal 900 24px/29px Lato;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+
+.nav-link-plus-highlights{
+    font: normal normal 300 18px/22px Lato;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-left: 950px;
+}
+
+.img-flecha-more-highlights{
+    width: 24px;
+    height: 24px;
+}
+
+.games-highlights{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-games-highlights{
+    width: 308px;
+    height: 240px;
+    background-color: #FFFFFF;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.img-games-highlights{
+    width: 294px;
+    height: 186px;
+    background-color: #F2F2F2;
+    border-radius: 20px 20px 20px 20px;
+    margin: 7px 7px 7px;
+    display: flex;
+    align-items: flex-end;
+}
+/* .icon-star-highlights{
+
+    width: 25.08px;
+    height: 24px;
+    
+}
+
+.img-start-highlights{
+
+} */
+
+.info-games-highlights{
+    display: flex;
+    text-align: center;
+    margin-bottom: 13px;
+    font: normal normal 300 14px/17px Lato;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+
+.PC-games-highlights{
+    width: 48px;
+    height: 24px;
+    background-color: #FFFFFF;
+    border-radius: 12px 12px 12px 12px;
+    margin-right: 6px;
+    margin-left: 8px;
+}
+
+.PlayStation-games-highlights{
+    width: 101px;
+    height: 24px;
+    background-color: #FFFFFF;
+    border-radius: 12px 12px 12px 12px;
+    margin-right: 6px;
+}
+
+.Xbox-games-highlights{
+    width: 101px;
+    height: 24px;
+    background-color: #FFFFFF;
+    border-radius: 12px 12px 12px 12px;
+}
+
+.name-games-highlights{
+    font: normal normal 300 18px/22px Lato;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin: 7px 19px;
+}
+
+/*============PREMIERES==================*/
+.premiere-main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 739px;
+}
+
+.premiere-container{
+    width: 80%;
+    margin-top: 52px;
+}
+
+.nav-link-games-premiere{
+    display: flex;
+    font: normal normal 900 24px/29px Lato;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+
+.nav-premiere{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    width: 100%;
+    height: 29px;
+    margin-top: 81px;
+    margin-top: -2px;
+}
+
+.nav-link-ready-premiere{
+    display: flex;
+    justify-content: flex-start;
+    font: normal normal 300 18px/22px Lato;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+
+}
+.container-see-more-premiere{
+    display: flex;
+    align-items: center;
+}
+
+.nav-link-plus-premiere{
+    font: normal normal 300 18px/22px Lato;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.img-flecha-premiere{
+    width: 24px;
+    height: 24px;
+    
+}
+
+.games-premier{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card-games-premier{
+    width: 308px;
+    height: 240px;
+    background-color: #FFFFFF;
+    border-radius: 20px 20px 20px 20px;
+    border: 1px solid #E3E3E3 ;
+    margin-bottom: 40px;
+}
+
+.img-games-premier{
+    width: 294px;
+    height: 186px;
+    background-color: #F2F2F2;
+    border-radius: 20px 20px 20px 20px;
+    margin: 7px 7px 7px;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.info-games-premier{
+    display: flex;
+    text-align: center;
+    margin-bottom: 13px;
+    font: normal normal 300 14px/17px Lato;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    
+}
+
+.PC-games-premier{
+    width: 48px;
+    height: 24px;
+    background-color: #FFFFFF;
+    border-radius: 12px 12px 12px 12px;
+    margin-right: 6px;
+    margin-left: 8px;
+}
+
+.PlayStation-games-premier{
+    width: 101px;
+    height: 24px;
+    background-color: #FFFFFF;
+    border-radius: 12px 12px 12px 12px;
+    margin-right: 6px;
+}
+
+.Xbox-games-premier{
+    width: 101px;
+    height: 24px;
+    background-color: #FFFFFF;
+    border-radius: 12px 12px 12px 12px;
+}
+
+.name-games-premier{
+    font: normal normal 300 18px/22px Lato;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin: 7px 19px;
+}
+
+/*============FOTTER==================*/
+
+.main-footer{
+    width: 100%;
+    height: 251px;
+    background-color: #707070;
+    display: flex;
+    justify-content: center;
+}
+
+.container-footer{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font: normal normal 300 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.brand-footer{
+    display: flex;
+    width: 195px;
+    height: 50px;
+    background-color: #000000;
+    margin-bottom: 13px;
+}
+
+.brand-contain-footer{
+    color: #FFFFFF;
+    font-size: 2rem;
+    font: normal normal 900 38px/44px Lato;
+}
+
+.nosotros-paragraph-footer{
+    margin-bottom: 14px;
+}
+
+.terminos-paragraph-footer{
+    margin-bottom: 14px;
+}
+
+.img-redes-footer{
+    display: flex;
+}
+
+.img-facebook-footer{
+    display: flex;
+    width: 36px;
+    height: 36px;
+    margin-right: 16px;
+    margin-top: 19px;
+}
+
+.img-instagram-footer{
+    display: flex;
+    width: 36px;
+    height: 36px;
+    margin-right: 16px;
+    margin-top: 19px;
+}
+
+.img-youtube-footer{
+    display: flex;
+    width: 36px;
+    height: 50px;
+    margin-top: 19px;
+}
+
+
+
+/*============GAMES-DETAIL==================*/
+
+/*============HEADER==================*/
+
+
+.main-header{
+    width: 100%;
+    color:white;
+    padding: 12px;
+    margin-bottom: 24px;
+}
+
+.container-header{
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.main-header .container-header{
+    width: 80%;
+    margin: auto;
+}
+
+.brand-header{
+    width: 195px;
+    height: 50px;
+    background-color: #000000;
+}
+.brand-contain{
+    color: #FFFFFF;
+    font-size: 2rem;
+    font: normal normal 900 38px/44px Lato;
+}
+/*============NAV HEADER==================*/
+.nav-header{
+    color:#000000;
+    margin: 5px;
+    
+}
+.nav-header .nav-link-header {
+    margin-right: .6rem;
+    color: #000000;
+}
+
+.nav-link-header{
+    font: normal normal 300 18px/22px Lato;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+/*============ORDER-GAMES==================*/
+
+.order-main{
+    margin-bottom: 88px;
+    overflow: hidden;
+    width: 80%;
+    height: 471px;
+    margin-top: 31px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    margin-left: 138px;
+    margin-bottom: 40px;
+}
+
+.section-order-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 420px;
+    height: 256px;
+}
+
+.title-order-container{
+    display: flex;
+    font: normal normal 900 40px/48px Lato;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    margin-bottom: 24px;
+    margin-left: 82px;
+    margin-top: 60px;
+}
+
+.paragraph-order-container{
+    font: normal normal 300 20px/24px Lato;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    margin-bottom: 24px;
+    margin-left: 82px;
+}
+
+.button-order{
+    background-color: #000000;
+    border: 1px solid #707070;
+    border-radius: 25px;
+    width: 210px;
+    height: 40px;
+    font: normal normal bold 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-left: 82px;
+}
+
+/*============FEATURES-GAMES==================*/
+
+a{
+    text-decoration: none;
+}
+
+.main-container-features{
+    display: flex;
+    width: 80%;
+    margin-left: 138px;
+}
+
+.main-features{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 1000px;
+    height: 628px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+}
+
+.features-container{
+    margin-top: 32px;
+    margin-left: 69px;
+    font: normal normal 900 24px/29px Lato;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+
+.features-container-paragraph{
+    font: normal normal 300 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    margin-top: 6px;
+}
+
+.features-platforms{
+    margin-left: 69px;
+    margin-top: 20px;
+    font: normal normal 300 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+
+.features-content-platforms{
+    display: flex;
+    text-align: center;
+    margin-bottom: 13px;
+    font: normal normal 300 14px/17px Lato;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+.features-PC{
+    width: 48px;
+    height: 24px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    margin-top: 11px;
+}
+
+.features-PlayStation{
+    width: 101px;
+    height: 24px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    margin-right: 6px;
+    margin-top: 11px;
+}
+
+.features-XboxOne{
+    width: 101px;
+    height: 24px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    margin-top: 11px;
+}
+
+.features-modes{
+    margin-left: 69px;
+    margin-top: 20px;
+    font: normal normal 300 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+
+.features-content-modes{
+    display: flex;
+    text-align: center;
+    margin-bottom: 13px;
+    font: normal normal 300 14px/17px Lato;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+
+
+.features-OnePlayer{
+    width: 85px;
+    height: 24px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    margin-right: 6px;
+    margin-top: 7px;
+}   
+
+.features-Multiplayer{
+    width: 101px;
+    height: 24px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    margin-right: 6px;
+    margin-top: 7px;
+}
+
+.features-Mode-challenge{
+    width: 101px;
+    height: 24px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    margin-top: 7px;
+}
+
+.features-games-details{
+    margin-left: 69px;
+    font: normal normal 300 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+
+.features-games-p0{
+    margin-bottom: 20px;
+}
+.button-add-features-content{
+    margin-top: 40px;
+    margin-left: 69px;
+}
+
+.button-add-features{
+    background-color: #000000;
+    border: 1px solid #707070;
+    border-radius: 25px;
+    width: 210px;
+    height: 40px;
+    font: normal normal bold 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.main-section-features{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 80px;
+}
+.section-features{
+    width: 500px;
+    height: 628px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+
+}
+
+.img-section-features{
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    height: 196px;
+}
+
+
+/*============RELATED-GAMES==================*/
+
+.main-related-games{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 433px;
+    background-color: #EFEFEF;
+    margin-top: 147px;
+}
+
+.container-related-games{
+    width: 80%;
+}
+
+.nav-related-games{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 29px;
+    margin-top: 27px;
+    margin-bottom: 29px;
+}
+
+.nav-link-games-related{
+    font: normal normal 900 24px/29px Lato;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+
+.nav-link-plus-related{
+    font: normal normal 300 18px/22px Lato;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-left: 950px;
+}
+
+.img-flecha-more-related{
+    width: 24px;
+    height: 24px;
+}
+
+.games-related{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-games-related{
+    width: 308px;
+    height: 240px;
+    background-color: #FFFFFF;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.img-games-related{
+    width: 294px;
+    height: 186px;
+    background-color: #F2F2F2;
+    border-radius: 20px 20px 20px 20px;
+    margin: 7px 7px 7px;
+    display: flex;
+    align-items: flex-end;
+}
+/* .icon-star-highlights{
+
+    width: 25.08px;
+    height: 24px;
+    
+}
+
+.img-start-highlights{
+
+} */
+
+.info-games-related{
+    display: flex;
+    text-align: center;
+    margin-bottom: 13px;
+    font: normal normal 300 14px/17px Lato;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+
+.PC-games-related{
+    width: 48px;
+    height: 24px;
+    background-color: #FFFFFF;
+    border-radius: 12px 12px 12px 12px;
+    margin-right: 6px;
+    margin-left: 8px;
+}
+
+.PlayStation-games-related{
+    width: 101px;
+    height: 24px;
+    background-color: #FFFFFF;
+    border-radius: 12px 12px 12px 12px;
+    margin-right: 6px;
+}
+
+.Xbox-games-related{
+    width: 101px;
+    height: 24px;
+    background-color: #FFFFFF;
+    border-radius: 12px 12px 12px 12px;
+}
+
+.name-games-related{
+    font: normal normal 300 18px/22px Lato;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin: 7px 19px;
+}
+
+/*============ADD-GAMES==================*/
+
+/*============HEADER==================*/
+
+.main-header-games{
+    width: 100%;
+    height: 83px;
+    background-color: #F2F2F2;
+}
+
+.container-header-games{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 138px;
+}
+
+.brand-header-games{
+    width: 195px;
+    height: 50px;
+    background-color: #000000;
+    margin-top: 20px;
+}
+
+.brand-contain-games{
+    color: #FFFFFF;
+    font-size: 2rem;
+    font: normal normal 900 38px/44px Lato;
+}
+
+.nav-header-games{
+    display: flex;
+    color:#000000;
+    align-items: center;
+}
+
+
+.nav-link-header-games{
+    font: normal normal 300 18px/22px Lato;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-right: 22px;
+
+}
+
+.nav-img-user{
+    width: 34.88px;
+    height: 34.88px;
+}
+
+
+/*============SECTION-DETAILS==================*/
+
+.section-details{
+    margin-top: 53px;
+    margin-left: 207px;
+}
+
+.section-details-title{
+    font: normal normal 900 24px/29px Lato;
+    letter-spacing: 0px;
+    color: #737373;
+    opacity: 1;
+}
+
+.section-details-paragraph{
+    margin-top: 9px;
+    font: normal normal 300 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #737373;
+    opacity: 1;
+}
+
+/*============FORM==================*/
+
+.form-games-main{
+    width: 80%;
+    height: 1500px;
+    margin-top: 44px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    margin-left: 138px;
+}
+
+.select-genre-main{
+    margin-left: 69px;
+    margin-top: 42px;
+    margin-bottom: 47px;
+    display: flex;
+    align-items: center;
+}
+
+.genre-label{
+    font: normal normal normal 16px/17px Lato;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    margin-right: 16px;
+}
+
+.select-genre-content{
+    display: flex;
+    font: normal normal 300 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #BFBFBF;
+    opacity: 1;
+    width: 275px;
+    height: 40px;
+    border-radius: 10px;
+    margin-right: 10px;
+    border-style: none;
+    
+}
+
+.icon-mas{
+    width: 24px;
+    height: 24px;
+    
+}
+
+.select-plataforms{
+    margin-left: 69px;
+    margin-top: 42px;
+    margin-bottom: 47px;
+    display: flex;
+    align-items: center;
+}
+
+.plataforms-label{
+    font: normal normal 300 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+
+.select-plataforms-content{
+    display: flex;
+    font: normal normal 300 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #BFBFBF;
+    opacity: 1;
+    width: 419px;
+    height: 40px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 16px;
+    border-style: none;
+
+}
+
+.icon-mas{
+    width: 24px;
+    height: 24px;
+}
+
+.select-games{
+    margin-left: 69px;
+    margin-top: 42px;
+    margin-bottom: 47px;
+    display: flex;
+    align-items: center;
+}
+
+.games-label{
+    font: normal normal 300 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+
+.select-games-content{
+    display: flex;
+    font: normal normal 300 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #BFBFBF;
+    opacity: 1;
+    width: 419px;
+    height: 40px;
+    border-radius: 10px;
+    margin-right: 10px; 
+    margin-left: 16px;
+    border-style: none;
+
+}
+
+.select-history{
+    margin-left: 69px;
+    margin-top: 42px;
+    margin-bottom: 47px;
+    display: flex;
+    align-items: center;
+}
+
+.history-label{
+    font: normal normal 300 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    margin-right:16px;
+
+}
+
+.history-input{
+    width: 494px;
+    height: 217px;
+    border: 10px;
+    font: normal normal 300 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #BFBFBF;
+    opacity: 1;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.history-p{
+    font: normal normal 300 14px/17px Lato;
+    letter-spacing: 0px;
+    color: #BFBFBF;
+    opacity: 1;
+}
+
+.select-img{
+    margin-left: 69px;
+    margin-top: 42px;
+    margin-bottom: 47px;
+    display: flex;
+    align-items: center;
+}
+
+.img-label{
+    font: normal normal 300 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    margin-right:16px;
+}
+
+.img-input{
+    width: 340px;
+    height: 40px;
+    background-color: #E2E2E2;
+    border-radius: 10px;
+    border-style: none;
+    font: normal normal 300 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+
+.img-main{
+    width: 239px;
+    height: 154px;
+    background-color: #FCFCFC;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 24px;
+    margin-left: 255px;
+}
+
+.select-screenshot{
+    margin-left: 69px;
+    margin-top: 42px;
+    margin-bottom: 47px;
+    display: flex;
+    align-items: center;
+}
+
+.screenshot-label{
+    font: normal normal 300 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    margin-right: 16px;
+}
+
+.screenshot-input{
+    width: 340px;
+    height: 40px;
+    background-color: #E2E2E2;
+    border-radius: 10px;
+    border-style: none;
+    font: normal normal 300 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+
+.img-screenshot{
+    width: 154px;
+    height: 154px;
+    background-color: #FCFCFC;
+    border-radius: 10px;
+    display: flex;
+    margin-right: 20px;
+}
+
+.screenshot-save{
+    display: flex;
+    margin-left: 255px;
+    margin-top: 24px;
+
+}
+.select-requirements{
+    margin-left: 69px;
+    margin-top: 42px;
+    margin-bottom: 47px;
+    display: flex;
+    align-items: center;
+}
+
+.requirements-label{
+    font: normal normal 300 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    margin-right: 16px;
+}
+
+.requirements-input{
+    width: 494px;
+    height: 217px;
+    background-color: #FFFFFF;
+    border-style: none;
+    border-radius: 10px;
+    font: normal normal 300 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #BFBFBF;
+    opacity: 1;
+}
+
+.conten-button-form{
+    margin-left: 255px;
+    margin-top: 62px;
+}
+
+.button-save-game{
+    background-color: #000000;
+    border: 1px solid #707070;
+    border-radius: 25px;
+    width: 210px;
+    height: 40px;
+    font: normal normal bold 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
